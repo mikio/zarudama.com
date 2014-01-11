@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>ざる魂</title>
+    <link href="http://localhost:8080/atom.xml" rel="self" />
+    <link href="http://localhost:8080/" />
+    <updated></updated>
+    <id>http://localhost:8080</id>
+    <author><name>mikio_kun</name></author>
+
+        <entry>
+        <title>helmのファイル一覧でパスを表示する</title>
+        <link>http://localhost:8080/article/2013/06/14_helm.html</link>
+        <updated>2013-06-14T00:00:00</updated>
+        <id>http://localhost:8080/article/2013/06/14_helm.html</id>
+        <content type="html"></content>
+    </entry>
+    
+</feed>
