@@ -5,13 +5,13 @@
     <link href="http://localhost:8080/" />
     <updated></updated>
     <id>http://localhost:8080</id>
-    <author><name>mikio_kun</name></author>
+    <author><name>zarudama_games</name></author>
 
         <entry>
-        <title>helmのファイル一覧でパスを表示する</title>
-        <link>http://localhost:8080/article/2013/06/14_helm.html</link>
-        <updated>2013-06-14T00:00:00</updated>
-        <id>http://localhost:8080/article/2013/06/14_helm.html</id>
+        <title>ほげ</title>
+        <link>http://localhost:8080/article/2014/01/11_game1.html</link>
+        <updated>2014-01-11T00:00:00</updated>
+        <id>http://localhost:8080/article/2014/01/11_game1.html</id>
         <content type="html"></content>
     </entry>
     

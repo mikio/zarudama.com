@@ -22,13 +22,14 @@
         :your-domain   "mikio.github.io"
         :atom          "atom.xml"
         :atom-base     "http://localhost:8080"
-        :twitter-id    "mikio_kun"
-        :disqus-id     "mikiokunblog"
+        :twitter-id    "zarudama_games"
+        :disqus-id     ""
         :local {:css   ["css/main.css"]
-                :js    ["js/highlight.pack.js"
-                        "js/main.js"]}
+                :js    ["js/main.js"]}
+
+    <link rel="stylesheet" href="css/pricing.css">
         :remote {:css ["http://fonts.googleapis.com/css?family=Josefin+Sans"
-                       "http://yandex.st/highlightjs/7.3/styles/github.min.css"]}}
+                       "http://yui.yahooapis.com/pure/0.3.0/pure-min.css"]}}
 
  ;; misaki-orgmode configuration
  ;; cuma extension file

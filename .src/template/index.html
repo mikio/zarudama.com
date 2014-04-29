@@ -1,25 +1,61 @@
 ; @layout layout
 ; @title トップページ
 ; @orgmode? false
-<br/>
-<p>
-</p>
 
-<h2>記事一覧</h2>
-<ul>
-@(for posts)
-<li><a href="$(url)">$(date-format date "yyyy/MMM/dd") - $(title)</a></li>
-@(end)
-</ul>
-@(if prev-page)
-<a href="$(prev-page)">&laquo; Newer posts</a>
-@(end)
-@(if next-page)
-<a href="$(next-page)">Older posts &raquo;</a>
-@(end)
+<div class="banner">
+  <h1 class="banner-head">
+    $(site-title)
+  </h1>
+</div>
+
+<div class="l-content">
+  <div class="content">
+    <h2>新着情報</h2>
+    <ul>
+      @(for recent-posts)
+      <li>$(date-format date "yyyy/MMM/dd") - 「<a href="$(url)">$(title)</a>」をリリースしました。</li>
+      @(end)
+    </ul>
+  </div>
 
 
-<h2>Links</h2>
-<ul>
-  <li><a href="$(root)archives.html">Archives</a></li>
-</ul>
+  <div class="information pure-g-r">
+    <div class="pure-u-1-2">
+      <div class="l-box">
+        <h3 class="information-head">Get started today</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+        </p>
+      </div>
+    </div>
+
+    <div class="pure-u-1-2">
+      <div class="l-box">
+        <h3 class="information-head">Pay monthly or annually</h3>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ullamco laboris nisi ut aliquip ex ea commodo
+          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+        </p>
+      </div>
+    </div>
+
+    <div class="pure-u-1-2">
+      <div class="l-box">
+        <h3 class="information-head">24/7 customer support</h3>
+        <p>
+          Cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+      </div>
+    </div>
+
+    <div class="pure-u-1-2">
+      <div class="l-box">
+        <h3 class="information-head">Cancel your plan anytime</h3>
+        <p>
+          Duis aute irure dolor in reprehenderit in voluptate velit esse
+          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
+  </div> <!-- end information -->
+</div> <!-- end l-content -->

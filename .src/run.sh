@@ -9,7 +9,7 @@ rm -rf $PUBLIC/page*
 rm -rf $PUBLIC/tag
 rm -rf $PUBLIC/article
 cd $MISAKI;
-lein run $SRC --compile
-#lein run $SRC
+#lein run $SRC --compile
+lein run $SRC
 cd $PWD
 
